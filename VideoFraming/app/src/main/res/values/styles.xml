@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.AppCompat" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        </style>
+
+    <style name="SingleGradient">
+        <item name="android:background">@drawable/selector_gradient</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:textColor">@drawable/selector_color</item>
+    </style>
+    <style name="MultiGradient">
+        <item name="android:background">@drawable/selector_multi_gradients</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:textColor">@drawable/selector_color</item>
+    </style>
+</resources>
